@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.chat-box {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+}
+
+#message-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#file-input {
+    width: 20%;
+    border: none;
+}
+
+#send-btn {
+    width: 10%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #0056b3;
+}
