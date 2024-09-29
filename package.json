@@ -1,0 +1,13 @@
+{
+  "name": "chatbot-gemini",
+  "version": "1.0.0",
+  "description": "Chatbot using Gemini API for continuous conversation",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.19.0"
+  }
+}
